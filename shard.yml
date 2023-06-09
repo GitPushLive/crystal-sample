@@ -1,0 +1,13 @@
+name: crystal-sample
+version: 0.1.0
+
+authors:
+  - Cris Ward <cris@duodesign.co.uk>
+
+targets:
+  crystal-sample:
+    main: src/crystal-sample.cr
+
+crystal: 1.8.2
+
+license: MIT

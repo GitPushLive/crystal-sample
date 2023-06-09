@@ -1,0 +1,8 @@
+{
+  "name": "Crystal Website",
+  "scripts":{
+    "dokku":{
+      "predeploy": "crystal build --static --release ./src/crystal-sample.cr"
+    }
+  }
+}
