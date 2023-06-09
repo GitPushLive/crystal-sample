@@ -8,7 +8,7 @@ module Crystal::Sample
     context.response.print "Hello world!"
   end
 
-  address = server.bind_tcp ENV["PORT"].to_i
+  address = server.bind_tcp "0.0.0.0",ENV["PORT"].to_i
   puts "Listening on http://#{address}"
   server.listen
 end
