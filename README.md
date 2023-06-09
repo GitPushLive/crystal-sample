@@ -4,9 +4,11 @@ A simple example dokku crystal setup. This isn't using any frameworks, it's just
 "hello world" app to show their various bits of the configuration required to get a
 crystal app online.
 
+More information in this tutorial
+
 https://www.gitpushlive.com/blog/how-to-deploy-a-crystal-app-to-production-with-git/
 
-## Local Test 
+## To Test on Your Machine
 
 To install crytal, see [instructions here](https://crystal-lang.org/install/)
 
