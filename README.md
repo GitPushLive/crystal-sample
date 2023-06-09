@@ -1,27 +1,20 @@
 # crystal-sample
 
-TODO: Write a description here
+A simple example dokku crystal setup. This isn't using any frameworks, it's just a simple 
+"hello world" app to show their various bits of the configuration required to get a
+crystal app online.
 
-## Installation
+https://www.gitpushlive.com/blog/how-to-deploy-a-crystal-app-to-production-with-git/
 
-TODO: Write installation instructions here
+## Local Test 
 
-## Usage
+To install crytal, see [instructions here](https://crystal-lang.org/install/)
 
-TODO: Write usage instructions here
+Once installed run the below command to test
 
-## Development
+```
+crystal src/crystal-sample.cr
+```
+Open - http://0.0.0.0:8080
 
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/crystal-sample/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [Cris Ward](https://github.com/your-github-user) - creator and maintainer
+You should see "Hello World" outputted from your browser.
