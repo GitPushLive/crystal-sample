@@ -4,6 +4,7 @@ module Crystal::Sample
   ENV["PORT"] ||= "8080"
 
   server = HTTP::Server.new do |context|
+    context.response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
     context.response.content_type = "text/plain"
     context.response.print "Hello world!"
   end
